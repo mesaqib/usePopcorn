@@ -7,7 +7,9 @@ import { useMovies } from "./useMovies";
 const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
 
-const KEY = "f84fc31d";
+const KEY = "631ba04c";
+
+// https://www.omdbapi.com/?i=tt3896198&apikey=631ba04c
 
 export default function App() {
   const [query, setQuery] = useState("");
